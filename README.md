@@ -2,7 +2,7 @@
 
 ### Getting Started
 1. `npm install`.
-2. `createdb hogwarts`
+2. `createdb music_app`
 3. `npm run seed` to seed your database.
 4. `npm start` to run your application on PORT 8080!
 
@@ -15,13 +15,4 @@
 - Class and instance methods [x]
 - many to many relationships [x]
 
-// many students to one house
-1 to many relationship
-House.hasMany(Student)
-Student.belongsTo(House) <-- establish the foreign key on the Students table.
 
-// one to one
-House.hasOne(Student)
-Student.belongsTo(House)
-
-// many to many
